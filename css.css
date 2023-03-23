@@ -1,0 +1,23 @@
+body{
+  background:rgb(8, 94, 121) url("11.jpeg") no-repeat fixed center; 
+}
+
+img {
+     width: 100px;
+  height:auto;
+  background-color: red;
+  position: relative;
+  animation: rem 10s linear .5s infinite alternate;
+  }
+  
+@keyframes rem{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:400px;}
+  75%  {background-color:green; left:0px; top:400px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+ 
+
+  
+  
